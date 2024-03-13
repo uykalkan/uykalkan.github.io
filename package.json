@@ -6,10 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@vituum/vite-plugin-handlebars": "^1.1.0",
+    "gh-pages": "^6.1.1",
     "typescript": "^5.2.2",
     "vite": "^5.1.6",
     "vituum": "^1.1.0"
